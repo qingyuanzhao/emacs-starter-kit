@@ -65,7 +65,7 @@ as turning off the sans-serif heading style that AucTeX defaults to.
 Just maximize the frame. Not true fullscreen
 
 #+srcname: fullscreen-1
-#+begin_src emacs-lisp :tangle no
+#+begin_src emacs-lisp
   (global-set-key (kbd "C-c m") 'maximize-frame)  
 #+end_src
 
